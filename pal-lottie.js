@@ -40,7 +40,7 @@ uniform sampler2D u_tex0;
 uniform vec2 u_resolution;
 
 vec3 pal(int i){
-  if(i==0) return vec3(0.06);
+  if(i==0) return vec3(0.00);
   if(i==1) return vec3(1.0);
   if(i==2) return vec3(0.95,0.32,0.32);
   if(i==3) return vec3(0.0,1.0,1.0);
